@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --blue-green: #5F99AE;
+  --purple: #693382;
+  --dark-blue:#336D82;
+  --beige:#F5ECE0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Menlo, monospace;
+  font-size: 1rem;
+  color: var(--beige);
+  background-color: var(--dark-blue);
+  padding: 0 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.palindrome-checker{
+  color: var(--dark-blue);
+  background-color: var(--beige);
+  font-size: 0.8rem;
+  max-width: 600px;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.input-group{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 10px; 
+  width: 100%; 
+  margin-bottom: 10px; 
+  padding: 6px 10px;      
+}
+
+.text-input {
+  border: none;
+  border-bottom: 1.5px solid var(--purple); 
+  background-color: transparent;
+  outline: none;
+  font-size: 0.8rem;
+  width: 60%;
+  color: var(--black); 
+  text-align: center;
+}
+
+.check-btn {
+  font-size: inherit;
+  font-family: monospace;
+  margin-top: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--beige);
+  background-color: var(--purple);
+  padding: 1px 10px;
+}
+
+#result {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 10px; 
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: var(--purple); 
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.tips{
+  color:var(--white);
+  background-color:var(--blue-green);
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 65%;
+  height: auto;
+  max-width: 600px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.tips-text{
+  border: none;
+  padding: 3px 10px;
+}
