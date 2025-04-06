@@ -19,10 +19,6 @@ Examples:
 - Alerts user when input is empty
 - Ignores punctuation, spaces, and case when checking palindromes
 
-## 📸 Preview
-
-![App Screenshot](screenshot.png) <!-- You can replace this with your actual screenshot path -->
-
 ## 🛠️ Technologies Used
 
 - **HTML5** – structure of the webpage
@@ -37,7 +33,7 @@ Examples:
 
 ## 🔧 How to Use
 
-1. Open `index.html` in any modern web browser (or visit the GitHub Pages link if deployed).
+1. Open https://yymengduuu.github.io/Palindrome-Checker/ in any modern web browser.
 2. Enter a word or sentence in the input field.
 3. Click the **Check** button or press **Enter**.
 4. The result will be displayed immediately below the input.
